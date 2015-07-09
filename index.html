@@ -22,11 +22,33 @@
         }
       });
 
+      var CAFooter = React.createClass({
+        render: function() {
+          return (
+            <div className="ui grid">
+              <div className="two wide column">
+                <div className="ui label">Cristina Marinescu:</div>
+              </div>
+              <div className="twelve wide column">
+                <div className="ui left labeled icon input">
+                      <input type="text" placeholder="Enter your message here..." />
+                      <i className="user icon" />
+                </div>
+              </div>
+              <div className="two wide column">
+                <div className="ui red submit button"> Send message </div>
+              </div>
+            </div>
+          );
+        }
+      });
+
       var CAContainer = React.createClass({
         render: function() {
           return (
             <div className="ui raised segment signin">
               <CAHeader />
+              <CAFooter />
             </div>
           );
         }

@@ -1,16 +1,26 @@
-body, .ui.vertical.divider {
-  color: #696969;
-}
- 
-.ui.vertical.divider {
-  margin: 0 4px;
-}
- 
 .ui.raised.segment {
   background-color: #fffacd;
-  width: 600px;
-  margin-top: 0;
-  position: fixed;
-  left: 10px;
-  top: 10px;
+  left: 2px;
+  top: 2px;
+  padding: 2px 2px 2px 2px;
+}
+
+.ui.inverted.blue.block {
+	margin: 2px 2px 2px 2px;
+}
+
+.ui.left.labeled.icon.input {
+  margin-top: 3px;
+  width: 100%;
+}
+
+.ui.red.submit.button {
+  margin-top: 2px;
+}
+
+.ui.label {
+  font-weight: bolder;
+  font-size: 16px;
+  text-align: right;
+  background-color: transparent;
 }
